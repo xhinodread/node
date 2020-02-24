@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+      <meta name="theme-color" content="#000000" />
+      <meta name="description" content="Progressive Web App tutorial" />
+
+      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+      <link rel="shortcut icon" href="%PUBLIC_URL%/icons/icon-72x72.png" />
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+      <!-- Bootstrap core CSS -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Material Design Bootstrap -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.1/css/mdb.min.css" rel="stylesheet">
+
+      <title>React App</title>
+    </head>
+    <body>
+      <noscript> You need to enable JavaScript to run this app. </noscript>
+      <div id="root">
+          <div class="container">
+              <div class="row">
+                <div class="col-md-9 mb-r">
+                    <h2 class="text-uppercase my-3">Today:</h2>
+                    <div id="schedule-items">
+                      <div class="d-flex justify-content-center">
+                        <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+                          <span class="sr-only">Loading...</span>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="col-md-3">
+                    <h3 class="text-uppercase my-3">Schedule</h3>
+                    <h6 class="my-3">It's going to be busy that today. You have<b> </b> today.</h6>
+                    <h1 class="my-3">
+                      <div class="row">
+                          <div class="col-xs-3 text-center"><i class="fa fa-sun fa-fw"></i></div>
+                          <div class="col-xs-9">Sunny</div>
+                      </div>
+                      <div class="row">
+                          <div class="col-xs-3 text-center"><i class="fa fa-thermometer-three-quarters fa-fw"></i></div>
+                          <div class="col-xs-9">23°C</div>
+                      </div>
+                    </h1>
+                    <p>Don't forget your sunglasses. Today will dry and sunny, becoming warm in the afternoon with temperatures of between 20 and 25 degrees.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+    </body>
+  </html>
